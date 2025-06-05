@@ -1,5 +1,11 @@
+import { CustomButton } from "shared/custombutton";
+
 function App() {
-  return <>test</>;
+  return (
+    <>
+      <CustomButton children="Кнопка" />
+    </>
+  );
 }
 
 export default App;
